@@ -1,16 +1,22 @@
-# Implementación: GO
+# Unidad IV ~ Implementación GO
 
-## Introducción
+## Tipos, Valores y Variables
 
-En esta sección veremos algunos conceptos de Go que son elementales para comenzar a programar. Se describe como especificar variables, constantes tipos de dato, operadores y operandos, expresiones y el concepto de asignación en Go.
-Adicionalmente se resume la sintaxis asociada a estos conceptos, caracterīsticas de entrada/salida, y la estructura básica de un programa en Go.
+Go provee una variedad de tipos de datos primitivos y complejos. Los tipos primitivos(primitive types) son los bloques de construcción básicos tales como strings, numbers and booleans. Los tipos de datos complejos son estructuras definidas por el usuario compuestos por una combinación de uno o más tipos primitivos y/o complejos.
+
+### Tipos de Datos Primitivos
+
+| Grupo | Tipos de datos | Descripción |
+| ----------- | ----------- | ----------- |
+| Reales | float32, float64 | Son números que tienen punto flotante, es decir, contienen decimales |
+| Enteros | int, int8, int16, int32, int64 | Son números que no tienen parte decimal |
+| Lógicos | bool | Solo pueden tomar dos valores *true* o *false* |
+| Caracteres | string | Caracteres que van entre comillas para formar texto |
+
+(*) Me faltaron catalogar uint, uint8, uint16, uint32, uint64, uintptr, byte, rune, complex64 y complex128
 
 
-## Variables y Constantes
-
-### Variables
-
-En Go las variables se declaran utilizando la palabra clave `var` seguida del nombre o etiqueta que le queremos dar a la variable y a continuación especificando el tipo de la misma. Las variables pueden almacenar datos de tipo primitivo o de estructura, y su valor puede cambiar durante la ejecución del programa tantas veces como sea necesario, además pueden aplicarse ciertas operaciones dependiendo del tipo de las variables. Por ejemplo
+En Go las ***variables*** se declaran utilizando la palabra clave `var` seguida del nombre que le queremos dar a la variable y a continuación especificando el ***tipo*** de la misma. 
 
 ```go
 var name string
