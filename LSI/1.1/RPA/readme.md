@@ -6,6 +6,12 @@ Desarrollar la capacidad de resolver problemas a partir del planteo de algoritmo
 
 ## Contenidos
 
+Unidad I
+
+Unidad II
+
+Unidad III
+
 Unidad IV
 
 Variables. Tipos de datos. Asignación. Control de flujo. Expresiones. Evaluación de expresiones. Operadores. Precedencia de operadores. Diseño de algoritmos utilizando estructura secuencial. Programación Imperativa. Implementación en Go. Traza de un programa.
