@@ -12,4 +12,11 @@ Los tipos de valores que pueden ser representados y manipulados en un lenguaje d
 
 ## Constantes
 
-Las constantes son variables, es decir, un lugar donde podemos almacenar un valor al cual accedemos mediante un nombre, pero cuyo valor no puede ser modificado durante la ejecución de un programa. 
+Las constantes son variables, es decir, un lugar donde podemos almacenar un valor al cual accedemos mediante un nombre, pero con la garantía de que cuyo valor no puede ser modificado durante la ejecución de un programa.
+
+
+## Operadores y Operandos
+
+
+## Expresiones
+
