@@ -16,7 +16,7 @@ Go provee una variedad de tipos de datos primitivos y complejos. Los tipos primi
 (*) Me faltaron catalogar uint, uint8, uint16, uint32, uint64, uintptr, byte, rune, complex64 y complex128
 
 
-En Go las ***variables*** se declaran utilizando la palabra clave `var` seguida del nombre que le queremos dar a la variable y a continuación especificando el ***tipo*** de la misma. 
+En Go las ***variables*** se declaran utilizando la palabra clave `var` seguida del nombre que le queremos dar a la variable y a continuación especificando el ***tipo*** de la misma.
 
 ```go
 var name string
@@ -33,4 +33,10 @@ const Pi = 3.14
 const Port = 8080
 ```
 
-Las constantes pueden ser de tipo character, string, boolean, o valores numericos. Si bien no se vio por el momento, cabe mencionar que las constantes no pueden ser declaradas utilizando la sintaxis `:=`.
+Las constantes pueden ser de tipo character, string, boolean, o valores numericos. Si bien no se vió por el momento, cabe mencionar que las constantes no pueden ser declaradas utilizando la sintaxis `:=`.
+
+
+
+### Tipos de Datos Complejos
+
+Además de los tipos de datos primitivos, Go dispone tipos de datos complejos, tales como `slices` y `maps`. 
