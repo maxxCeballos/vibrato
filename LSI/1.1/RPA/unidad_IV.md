@@ -12,11 +12,28 @@ Los tipos de valores que pueden ser representados y manipulados en un lenguaje d
 
 ## Constantes
 
-Las constantes son variables, es decir, un lugar donde podemos almacenar un valor al cual accedemos mediante un nombre, pero con la garantía de que cuyo valor no puede ser modificado durante la ejecución de un programa.
+Una ***constante*** es una variable, es decir, un lugar donde podemos almacenar un valor al cual accedemos mediante un nombre, pero con la garantía de que cuyo valor no puede ser modificado durante la ejecución de un programa.
 
 
 ## Operadores y Operandos
 
+Los ***operadores*** son símbolos que representan algún tipo de operación sobre dos operandos(salvo operadores unarios que actúan sobre un solo operando) y arrojan un resultado. Se deben considerar los *tipos* de operandos para determinar cuales operadores son aplicables. Por ejemplo, si los operandos son números, el operador deberá ser un operador aritmético.
+
 
 ## Expresiones
 
+Una ***expresión*** es todo aquello que se puede evaluar, es decir, que lanza un resultado. Las siguientes son expresiones:
+
+- Variable
+- Constante
+- Operando Operador
+- Operando Operador Operando
+- Expresión Operador
+- Expresión Operador Expresión
+
+Considerando los tipos de operadores, podemos decir que existen expresiones de tipo aritméticas, relacionales y lógicas, que al ser evaluadas retornan un resultado de cierto tipo. En cada caso tanto los operadores como los operandos deben ser compatibles, de lo contrario la expresión no se podría evaluar. Por ejemplo, si intentamos sumar un entero con un valor lógico (true o false) sería una expresión incorrecta que no se podría evaluar.
+
+
+## Declaración y Asignación
+
+Antes de que pueda utilizar una variable es necesario ***declarar*** dicha variable. Por ejemplo, como veremos en los ejemplos de implementación con Go, una variable se declara con la palabra clave `var`. Una vez declarada, podemos inicializar la variable, esto es mediante una ***asignación***. El operador de asignación es aquel que permite almacenar en una variable el resultado de evaluar una expresión.
