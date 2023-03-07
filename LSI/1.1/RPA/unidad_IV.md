@@ -17,21 +17,35 @@ Una ***constante*** es una variable, es decir, un lugar donde podemos almacenar 
 
 ## Operadores y Operandos
 
-Los ***operadores*** son símbolos que representan algún tipo de operación sobre dos operandos(salvo operadores unarios que actúan sobre un solo operando) y arrojan un resultado. Se deben considerar los *tipos* de operandos para determinar cuales operadores son aplicables. Por ejemplo, si los operandos son números, el operador deberá ser un operador aritmético.
+Los  ***operadores*** se pueden categorizar según el número de operandos que esperan (su aridad). La mayoría de los operadores, como el operador de multiplicación `*`, son operadores binarios que combinan dos expresiones en una sola expresión más compleja. Es decir, esperan dos operandos. También existen operadores unarios, que convierten una sola expresión en una sola expresión más compleja. El operador `−` en la expresión −x es un operador unario que realiza la operación de negación en el operando x.
+
+Se deben considerar los *tipos* de operandos para determinar cuales operadores son aplicables. Por ejemplo, si los operandos son números, el operador deberá ser un operador aritmético.
 
 
 ## Expresiones
 
-Una ***expresión*** es todo aquello que se puede evaluar, es decir, que lanza un resultado. Las siguientes son expresiones:
+Una ***expresión*** es todo aquello que se puede evaluar, es decir, que produce un valor. Las siguientes son expresiones:
 
 - Variable
 - Constante
-- Operando Operador
+- Operador Operando
 - Operando Operador Operando
-- Expresión Operador
+- Operador Expresión
 - Expresión Operador Expresión
 
-Considerando los tipos de operadores, podemos decir que existen expresiones de tipo aritméticas, relacionales y lógicas, que al ser evaluadas retornan un resultado de cierto tipo. En cada caso tanto los operadores como los operandos deben ser compatibles, de lo contrario la expresión no se podría evaluar. Por ejemplo, si intentamos sumar un entero con un valor lógico (true o false) sería una expresión incorrecta que no se podría evaluar.
+Las expresiones más simples, conocidas como ***expresiones primarias***, son aquellas que están solas; no incluyen expresiones más simples, por ejemplo:
+
+> 3.14
+
+Es una expresión que, al evaluarla, obtenemos el valor 3.14
+
+Las expresiones que representan números se pueden combinar con operadores (como + o *) para formar una ***expresión compuesta***, por ejemplo:
+
+> 137 + 349     // 486
+
+Tanto 137 como 349 son operandos, '+' es el operador, y 486 es el valor que surge de evaluar la expresión.
+
+ En cada caso tanto los operadores como los operandos deben ser compatibles, de lo contrario la expresión no se podría evaluar. Por ejemplo, si intentamos sumar un entero con un valor lógico (true o false) sería una expresión incorrecta que no se podría evaluar.
 
 
 ## Declaración y Asignación
