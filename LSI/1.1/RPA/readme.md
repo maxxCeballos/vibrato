@@ -12,6 +12,8 @@ Unidad II
 
 Unidad III
 
+Lenguaje de programación. Definición. Algoritmos. Definición. Especificación de Algoritmos. Ejecución de algoritmos. Resolución de problemas y Algoritmos.
+
 Unidad IV
 
 Variables. Tipos de datos. Asignación. Control de flujo. Expresiones. Evaluación de expresiones. Operadores. Precedencia de operadores. Diseño de algoritmos utilizando estructura secuencial. Programación Imperativa. Implementación en Go. Traza de un programa.
