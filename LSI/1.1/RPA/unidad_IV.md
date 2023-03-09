@@ -5,7 +5,7 @@
 
 Los programas de computadoras funcionan manipulando ***valores*** (values), tal como 2.78 o el texto "Hola Mundo". 
 
-Cuando un programa necesita retener un valor para su futuro uso, este asigna el valor a (o almacena el valor en) una ***variable*** y su valor puede cambiar durante la ejecución del programa tantas veces como sea necesario. Una variable define un nombre simbólico para un valor y permite que el valor sea referido mediante el nombre. La manera en que las variables trabajan es otra característica fundamental de cualquier lenguaje de programación. 
+Cuando un programa necesita retener un valor para su futuro uso, este asigna el valor a (o almacena el valor en) una ***variable*** y su valor puede cambiar durante la ejecución del programa tantas veces como sea necesario. Se puede pensar una variable por los atributos que la componen: un nombre, el valor que almacena y la dirección de memoria donde se va a almacenar el valor:
 
 
 <p align="center">
